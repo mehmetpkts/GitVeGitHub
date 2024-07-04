@@ -1,0 +1,13 @@
+COMMMİT İŞLEMİ : 
+
+Projeyi yapılan noktalara kadar kaydetme ve istenildiği zaman projenin ilk yapılan kısımlarını da görebilmemizi sağlayan işlemdir.
+
+git commit -m "|yazılmak istenilen mesaj|"   --> şeklinde yazılır.
+
+BRANCH İŞLEMİ :
+
+Kısacası dallanma diyebiliriz. Projenin aslını değiştirmeden başka bir dalda çalışarak projeyi geliştirmemizi sağlayan şeydir.
+
+git branch |branch'a verilmek istenen isim|   --> şeklinde yazılır.
+
+(Resimler klasöründeki 1. görsele bakılırsa commit işlemini ve branch işlemini daha iyi anlayabiliriz.)

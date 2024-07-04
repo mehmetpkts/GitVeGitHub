@@ -1,0 +1,9 @@
+E-MAİL VE KULLANICI ADI:
+
+git config --global user.name "|kullanmak istediğiniz kullanıcı adı yazılır|"   --> bu işlem ile kaydetmek veya değiştirmek istediğimiz kullanıcı adını yazarız.
+
+git config user.name   --> bu işlem ile sistemimizde kayıtlı olan kullanıcı adını görürüz.
+
+git config --global user.email |kullanmak istediğimiz e-mail yazılır|   --> bu işlem ile kaydetmek veya değiştirmek istediğimiz e-mailimizi yazarız.
+
+git config user.email   --> bu işlem ile sistemimizde kayıtlı olan e-mailimizi görürüz.

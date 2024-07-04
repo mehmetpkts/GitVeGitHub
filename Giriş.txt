@@ -1,0 +1,16 @@
+GİRİŞ:
+
+Öncelikle her sistemde geçerli onan git bash'i indirmenizi tavsiye ederim. Git bash terminalini kullanarak işlemlerimizi yapalım.
+
+
+KISACA BASİT TERMİNAL KOMUTLARI :
+
+ls   --> klasör içinde(bulunduğunuz konumda) neler var onu gösterir.
+pwd   --> bulunduğunuz konumu gösterir.
+cd |girmek istediğimiz konum|   --> girmek istediğimiz klasöre bu komut ile gireriz.
+cd ..   --> bulunduğumuz konumdan bir önceki konuma dönmemizi sağlar.
+clear   --> terminali temizler.
+touch |oluşturulmak istenen dosyanın adı ve uzantısı|   --> dosya oluşturur.(dosyanın uzantısını dosyayı oluşturuken yazmak gerekir.)
+rm   --> dosya silme işlemini gerçekleştirir.
+rm -rf   --> klasör silme işlemini gerçekleştirir.
+ls -la   --> ayrıntılı(gizli) dosyalarıda gösterir.

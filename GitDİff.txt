@@ -1,0 +1,19 @@
+* Eğer istersek bir dosyanın içindeki kodları değiştirdikten sonra ('git add' işlemini gerçekleştirmeden önce) neler değiştiğini görmek istiyorsak :
+
+git diff   --> işlemini yapabiliriz.
+
+* Eğer add işlemini gerçekleştirmişsek yapmamız gereken :
+
+git diff HEAD   --> işlemidir.
+
+* Eğer son commit ile istediğimiz commit arasındaki değişikliği görmek istiyorsak :
+
+git diff |gitmek istediğimiz commitin yanındaki sayı ve rakamlar|   --> yapmamız yerlidir.
+
+* Eğer branch'ler arasındaki farklılıkları görmek istiyorsak :
+
+git diff |branch adı| |diğer branch adı|   --> şeklinde yapılır.
+
+* Eğer istersek iki commit arasındaki değişikliği görmek istiyorsak :
+
+git diff |gitmek istediğimiz commitin yanındaki sayı ve rakamlar| |gitmek istediğimiz commitin yanındaki sayı ve rakamlar|   --> işlemini yapmamız gerekir.

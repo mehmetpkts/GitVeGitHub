@@ -1,0 +1,9 @@
+* Kullandığımızda işlerimizi biraz zorlaştıracak bir komut vardır : 
+
+git rebase |yapılmak istenilen branch ismi|
+
+NEDEN İŞLERİMİZİ ZORLAŞTIRIR ?
+
+- Büyük bir ekip çalışması projesinde bir çok commit , branch ve merge işlemlerini görebiliriz. Aslında bu işlemlerdeki branch'lere göre commit sıralaması yapan , yani branch ve commit tarihlerini değiştiren işleme rebase işlemi denir.
+
+NOT : Bu işlem daha iyi anlaşılabilmesi için resimler klasörü içindeki 2. görsel'e bakabiliriz.

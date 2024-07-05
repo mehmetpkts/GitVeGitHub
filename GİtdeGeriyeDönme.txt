@@ -1,0 +1,14 @@
+*Commit atıldıktan sonra değiştirmek istediğimiz veya da başka versiyonlar yapmak istediğimiz işlemler olabilir.
+
+* "git checkout |git log yaptığımızda commitin yanında yazan sayı ve rakamlar|"   --> işlemini yaparak istediğimiz commite dönme işlemini gerçekleştirebiliriz. İstediğimiz commite gidince HEAD kımı committe kalırken branch kısmı master(branch'imiz hani branch'de ise) da kalır. O yüzden 'git switch master' işlemini yaparak tekrardan master branch'ine dönebiliriz.
+
+*Eğer istersek önceki commit'te yeni bir branch oluşturduktan sonra o branch'de işlemler yapıp daha sonra istediğimiz branch'e geçiş yapabiliriz.(bu işlem daha sağlıklıdır.)
+
+* Bir commit attıktan sonra , eğer eski bir commit'e döneyim aynı zamanda döneceğim commit'e döndüğümde yeni attığım bütün commit'ler silinsin istersek şunu yaparız :
+
+git reset |gitmek istediğimiz commitin yanındaki sayı ve rakamlar|
+git reset hard |gitmek istediğimiz commitin yanındaki sayı ve rakamlar|
+
+* Eğer istersek istediğimiz commit'e dönebiliriz ve o commit'i branch değiştirmeden silinmesini sağlayabiliriz ve asıl mesele commit'te yapılanlar siliniz ama attığımız commit silinmez ve bu işlemi yaptığımızda yeni bir commit atılır . Bu işlemi yapmak için şunu yaparız :
+
+git revert |gitmek istediğimiz commitin yanındaki sayı ve rakamlar|

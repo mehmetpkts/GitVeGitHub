@@ -1,0 +1,3 @@
+FAST FORWARD İŞLEMİ
+
+Ana branch dışında yeni bir branch oluşturduktan sonra ana branch'e bir şey eklemeden yeni oluşturduğumuz branch'e bir şeyler ekleyip (değişiklik yapıp) commit işlemini yaptıktan sonra merge işlemini yapmamıza fast-forwar işlemi denir.

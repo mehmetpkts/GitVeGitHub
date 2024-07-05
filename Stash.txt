@@ -1,0 +1,12 @@
+STASH İŞLEMİ
+
+Bir dosya'da bir değişiklik yaptığımızda , o dosyayı add ve commit etmek istemiyorsak , stash işlemini yaparız. Dosya içinde yazdığımız kodlar ortadan kalkar ve stash'in belirlediği bir alanda tutulur. Daha sonra eğer istersek stash pop işlemini çalıştırarak başka alanda tuttuğumuz kodları geri çağırmış oluruz.
+
+Stash İşlemleri :
+
+git stash   --> stash işlemini gerçekleştirir.
+git stash pop   --> stash bellekte olanı geri getirir.
+git stash list   --> stash işlemlerini listeler.
+git stash apply stash@{|index numarası|}   --> istediğimiz stash işlemini geri getirir.
+git stash clear   --> bütün stash'leri geri getirir.Ve depolanan stash'leri siler.
+git stash apply --> eğer tek stash'imiz varsa ve depodan silinmesin , istersem farklı bir branch'imde de kullanayım dersek bunu kullanabiliriz.

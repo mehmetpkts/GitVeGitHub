@@ -1,0 +1,24 @@
+GİT KOMUTLARI
+
+git status   --> durumunu gösterir.
+
+git init   --> git'i dosya içerisinde çalıştırır ve oluşturur.
+
+git branch |branch'e verilmek istenilen isim|   --> branch oluşturmamıza yarar.
+
+git add |eklenmek istenilen dosyanın ismi|   --> commit atmadan önceki son işlemdir.
+
+git add .   --> o an klasördeki bütün dosyaları ekler.
+
+git commit -m "|commit olarak yazılmak istenilen mesaj|"   --> commit atmamızı ve commit mesajını belirtmemize yarar.
+
+git log   --> attığımız commit'leri ve detaylarını gösterir.
+
+git switch |geçmek istediğimiz branch'in ismi|   --> branch'ler arası dolaşmamızı sağlar.
+
+git merge |birleştirmek istediğimiz branch'in ismi yazılır.|   --> branch'leri birleştirmemizi sağlar.
+("git merge işlemi yaptıktan sonra 'r' tuşuna basmamız lazım , daha sonra gelen ekranda 'enter' tuşuna basmalıyız. En sondaki ekranda 'esc' tuşuna basmalıyız ve ardından ':wq' yazmamız gerekebilir.")
+
+NOT = "git log kullandıktan sonra karşımıza commit hakkında bilgiler çıkar , bu bilgiler ile istediğimiz commitleri geriye döndürme veya silme gibi işlemler yapılabilir."
+
+NOT = "git add dosyanın içeriğinde her değişiklik yaptığımızda tekrardan git add etmemiz gerekir."

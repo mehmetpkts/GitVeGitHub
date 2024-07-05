@@ -1,0 +1,7 @@
+MERGE CONFLİCT İŞLEMİ
+
+Yeni bir proje oluşturduğumuzda ardından yeni branch'ler açtığımızda ve daha sonrasında aynı projenin farklı branch'lerindeki dosyaların içeriğini değiştirip merge işlemi yaparsak , bize hata verir. Daha sonra dosyaları kaydederiz ve tekrardan merge işlemini yaparız. Bu işleme conflict çözme denir. Daha karışık conflict örnekleri olabilir. Eski kod ve branch'deki koddan birini tercih etmemiz gerekir.
+
+NOT: Eğer olurda bir şeyi commit etmeden branch değiştirirsek o commit etmediğimiz dosya bizimle gittiğimiz branch'e gelir. (başında A yazar.)
+
+NOT: Eğer olurda farklı branch'lerde olan ama aynı dosya olan bir dosyanın içeriğini değiştirip , sonrasında 'git add' ve 'git commit' yapmazsak 'git restore' ile o dosyanınson commitine dönebiliriz.

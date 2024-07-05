@@ -1,0 +1,7 @@
+GİTİGNORE NEDİR VE NE İÇİN KULLANILIR ?
+
+.gitignore
+
+Gizli dosya tutucu diyebiliriz. gitignore'yi oluşturabilmek için touch komutunu ulanabiliriz.
+(touch .gitignore   --> bu şekilde gitignore'yi oluşturmuş oluruz.)
+Google'de "gitignore template" diye bir arama yaparsak o yazılım dilinde hangi uzantılar kullanılmayacak görebiliriz.Gitignore içine dahiledeeğimiz dosyayı "add" yapamız gerekir.

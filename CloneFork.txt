@@ -1,0 +1,7 @@
+CLONE VE FORK
+
+* "git clone https://github.com/***/***"   --> ifadesi ile istediğimiz github reposunu bilgisayarımıza indirebiliriz. Fork'lamak ile bunun arasındaki fark , fork'lamak github'daki kendi profilimize kaydetmeye yarar ve artık bu projeye kendim devam edeceğim anlamına gelir. Fork'lama işlemini github üzerinden yaparız.
+
+* Fork işlemini yaptıktan sonra , projeyi geliştirdikten sonra karşı tarafa pull request isteği gönderebiliriz.
+
+NOT : Eğer başka birisi bizi private bir repo'ya eklerse orada push işlemini yapabiliriz.

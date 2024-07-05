@@ -1,0 +1,7 @@
+FETCH İŞLEMİ
+
+* "git fetch origin master"   --> ile github'dan yaptığımız verileri çekebiliriz ama sadece bu işlem yeterli olmaz , bu işlem sadece çekebilmemize yarar ama yeterli olmaz pull işlemi gereklidir. Bu işlemden sonra "git log" yazarsak  github'da yaptığımız commit'i göremeyiz ama "git status" yaparsak bizi bekleyen commit'ler olduğını görebiliriz.
+
+PULL İŞLEMİ
+
+* "git pull origin master"   --> ile artık işlemimizi gerçekleştirmiş oluruz ve github'da olan işlemlerimizi kendi bilgisayarımızda eklemiş oluruz.

@@ -1,0 +1,9 @@
+PUL REQUEST (github üzerinden merge işlemi)
+
+* Github üzerinden pull request ile birisine veya kendimize merge yapma teklifinde bulunabiliriz. Fakat bu işlem ile kendi bilgisayarımızda yapmadığımız ve github üzerinden merge işlemi yaptığımız için , bilgisayar üzerinde git log yaptığımızda commit'i göremeyiz.
+
+* "git branch -r"   --> yaparsak remote'deki branch'lerde görebiliriz. (remote'deki branch , github üzerindeki branch'dir)
+
+* Remote'deki branch'lere geçmek için :
+
+git checkout origin/master   --> yapılır.

@@ -1,0 +1,8 @@
+GİTHUB'A PROJE ATMA
+
+* Commit işlerini hallettikten sonra eğer projemizi github'a yüklemek istiyorsak sırası ile yapmamız gerekenler :
+
+git remote add origin https://github.com/***/***   --> bu işlem ile projemizi nereye atacağımızı sisteme söylemiş oluruz.
+
+git push -u origin |branch ismi|   --> hangi branch'i kullanacağımızı belirtiriz.
+(Buradaki '-u' nun amacı bir 2daha bir şeyi github'a ekleyeceğimiz zaman onun kayıtta tutulmasını sağlar. Kullanmasakta olur. Bir kere '-u' kullandıktan sonra atacağımız her bir commit'i "git push" terminale böyle yazarak kolay bir şekilde atabiliriz.)
